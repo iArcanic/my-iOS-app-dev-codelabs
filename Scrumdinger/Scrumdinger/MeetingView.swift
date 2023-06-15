@@ -24,6 +24,16 @@ struct MeetingView: View {
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
+            Circle()
+                .strokeBorder(lineWidth: 24)
+            HStack {
+                Text("Speaker 1 of 3")
+                Spacer()
+                Button(action: {}) {
+                    Image(systemName: "forward.fill")
+                }
+            }
+            .padding()
         }
     }
 }
