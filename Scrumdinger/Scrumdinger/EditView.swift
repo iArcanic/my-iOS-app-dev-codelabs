@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EditView: View {
     @State private var scrum = DailyScrum.emptyScrum
+    @State private var newAttendeeName = ""
     
     var body: some View {
         Form {
@@ -28,6 +29,12 @@ struct EditView: View {
                 }
                 .onDelete {indices in
                     scrum.attendees.remove(atOffsets: indices)
+                }
+                HStack {
+                    TextField("New Attendee", text: $newAttendeeName)
+                    Button(action: {}) {
+                        Image(systemName: "plus.circle.fill")
+                    }
                 }
             }
         }
