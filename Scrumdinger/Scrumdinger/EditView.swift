@@ -32,9 +32,16 @@ struct EditView: View {
                 }
                 HStack {
                     TextField("New Attendee", text: $newAttendeeName)
-                    Button(action: {}) {
+                    Button(action: {
+                        withAnimation {
+                            let attendee = DailyScrum.Attendee(name: newAttendeeName)
+                            scrum.attendees.append(attendee)
+                            newAttendeeName = ""
+                        }
+                    }) {
                         Image(systemName: "plus.circle.fill")
                     }
+                    .disabled(newAttendeeName.isEmpty)
                 }
             }
         }
