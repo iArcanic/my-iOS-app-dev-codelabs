@@ -27,6 +27,7 @@
 		93C48DB72A40A24000D74611 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DB62A40A24000D74611 /* ScrumProgressViewStyle.swift */; };
 		93C48DB92A40A8DF00D74611 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DB82A40A8DF00D74611 /* ScrumTimer.swift */; };
 		93C48DBB2A40DE0400D74611 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DBA2A40DE0400D74611 /* MeetingFooterView.swift */; };
+		93C48DBD2A41F08800D74611 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		93C48DB62A40A24000D74611 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		93C48DB82A40A8DF00D74611 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		93C48DBA2A40DE0400D74611 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				93C48DA22A3B76B300D74611 /* Theme.swift */,
 				93C48DA42A3B792B00D74611 /* DailyScrum.swift */,
 				93C48DB82A40A8DF00D74611 /* ScrumTimer.swift */,
+				93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				937525582A3B67FE0051AB0B /* ScrumdingerApp.swift in Sources */,
 				93C48DB12A3CC3A800D74611 /* ThemeView.swift in Sources */,
 				93C48DA72A3B7AA400D74611 /* CardView.swift in Sources */,
+				93C48DBD2A41F08800D74611 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
