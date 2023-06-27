@@ -28,6 +28,7 @@
 		93C48DB92A40A8DF00D74611 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DB82A40A8DF00D74611 /* ScrumTimer.swift */; };
 		93C48DBB2A40DE0400D74611 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DBA2A40DE0400D74611 /* MeetingFooterView.swift */; };
 		93C48DBD2A41F08800D74611 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */; };
+		93CFACFB2A4AD751008116D9 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93CFACFA2A4AD751008116D9 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		93C48DB82A40A8DF00D74611 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		93C48DBA2A40DE0400D74611 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		93CFACFA2A4AD751008116D9 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = ../../../../../../Downloads/ManagingStateAndLifeCycle/Complete/Scrumdinger/Resources/ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		937525562A3B67FE0051AB0B /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				93CFACF92A4AD713008116D9 /* Resources */,
 				93C48DA12A3B769000D74611 /* Models */,
 				937525572A3B67FE0051AB0B /* ScrumdingerApp.swift */,
 				937525592A3B67FE0051AB0B /* MeetingView.swift */,
@@ -175,6 +178,14 @@
 				93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		93CFACF92A4AD713008116D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93CFACFA2A4AD751008116D9 /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CFACFB2A4AD751008116D9 /* ding.wav in Resources */,
 				9375255F2A3B68000051AB0B /* Preview Assets.xcassets in Resources */,
 				9375255C2A3B68000051AB0B /* Assets.xcassets in Resources */,
 			);
