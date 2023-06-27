@@ -32,6 +32,7 @@
 		93CFACFD2A4ADD09008116D9 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFACFC2A4ADD09008116D9 /* NewScrumSheet.swift */; };
 		93CFACFF2A4AE106008116D9 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFACFE2A4AE106008116D9 /* History.swift */; };
 		93CFAD012A4AEF18008116D9 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD002A4AEF18008116D9 /* ScrumStore.swift */; };
+		93CFAD032A4AF8E0008116D9 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD022A4AF8E0008116D9 /* ErrorWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		93CFACFC2A4ADD09008116D9 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		93CFACFE2A4AE106008116D9 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		93CFAD002A4AEF18008116D9 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		93CFAD022A4AF8E0008116D9 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				93C48DBC2A41F08800D74611 /* AVPlayer+Ding.swift */,
 				93CFACFE2A4AE106008116D9 /* History.swift */,
 				93CFAD002A4AEF18008116D9 /* ScrumStore.swift */,
+				93CFAD022A4AF8E0008116D9 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				93C48DA52A3B792B00D74611 /* DailyScrum.swift in Sources */,
 				93CFAD012A4AEF18008116D9 /* ScrumStore.swift in Sources */,
 				93C48DAD2A3CA11C00D74611 /* DetailView.swift in Sources */,
+				93CFAD032A4AF8E0008116D9 /* ErrorWrapper.swift in Sources */,
 				93C48DB52A404E9300D74611 /* MeetingHeaderView.swift in Sources */,
 				93C48DA92A3B7E8100D74611 /* TrailingIconLabelStyle.swift in Sources */,
 				93CFACFD2A4ADD09008116D9 /* NewScrumSheet.swift in Sources */,
