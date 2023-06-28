@@ -22,6 +22,7 @@
 		93CFAD572A4C50D6008116D9 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD562A4C50D6008116D9 /* UIColor+Today.swift */; };
 		93CFAD592A4C61E9008116D9 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD582A4C61E9008116D9 /* ReminderDoneButton.swift */; };
 		93CFAD5B2A4C62BE008116D9 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD5A2A4C62BE008116D9 /* ReminderListViewController+Actions.swift */; };
+		93CFAD5D2A4C6A94008116D9 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD5C2A4C6A94008116D9 /* ReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		93CFAD562A4C50D6008116D9 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		93CFAD582A4C61E9008116D9 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		93CFAD5A2A4C62BE008116D9 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		93CFAD5C2A4C6A94008116D9 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				93CFAD4E2A4C3950008116D9 /* Models */,
 				93CFAD1E2A4C363B008116D9 /* AppDelegate.swift */,
 				93CFAD202A4C363B008116D9 /* SceneDelegate.swift */,
+				93CFAD5C2A4C6A94008116D9 /* ReminderViewController.swift */,
 				93CFAD532A4C4E7E008116D9 /* ListViewController */,
 				93CFAD242A4C363B008116D9 /* Main.storyboard */,
 				93CFAD272A4C363D008116D9 /* Assets.xcassets */,
@@ -294,6 +297,7 @@
 			files = (
 				93CFAD572A4C50D6008116D9 /* UIColor+Today.swift in Sources */,
 				93CFAD5B2A4C62BE008116D9 /* ReminderListViewController+Actions.swift in Sources */,
+				93CFAD5D2A4C6A94008116D9 /* ReminderViewController.swift in Sources */,
 				93CFAD232A4C363B008116D9 /* ReminderListViewController.swift in Sources */,
 				93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */,
 				93CFAD592A4C61E9008116D9 /* ReminderDoneButton.swift in Sources */,
