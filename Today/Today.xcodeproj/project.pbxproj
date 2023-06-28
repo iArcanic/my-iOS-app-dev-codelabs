@@ -19,6 +19,7 @@
 		93CFAD502A4C396B008116D9 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD4F2A4C396B008116D9 /* Reminder.swift */; };
 		93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD512A4C4C5A008116D9 /* Date+Today.swift */; };
 		93CFAD552A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD542A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift */; };
+		93CFAD572A4C50D6008116D9 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD562A4C50D6008116D9 /* UIColor+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		93CFAD4F2A4C396B008116D9 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		93CFAD512A4C4C5A008116D9 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		93CFAD542A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		93CFAD562A4C50D6008116D9 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				93CFAD4F2A4C396B008116D9 /* Reminder.swift */,
 				93CFAD512A4C4C5A008116D9 /* Date+Today.swift */,
+				93CFAD562A4C50D6008116D9 /* UIColor+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CFAD572A4C50D6008116D9 /* UIColor+Today.swift in Sources */,
 				93CFAD232A4C363B008116D9 /* ReminderListViewController.swift in Sources */,
 				93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */,
 				93CFAD1F2A4C363B008116D9 /* AppDelegate.swift in Sources */,
