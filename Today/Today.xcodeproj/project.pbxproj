@@ -17,6 +17,7 @@
 		93CFAD402A4C363E008116D9 /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD3F2A4C363E008116D9 /* TodayUITests.swift */; };
 		93CFAD422A4C363E008116D9 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD412A4C363E008116D9 /* TodayUITestsLaunchTests.swift */; };
 		93CFAD502A4C396B008116D9 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD4F2A4C396B008116D9 /* Reminder.swift */; };
+		93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD512A4C4C5A008116D9 /* Date+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93CFAD3F2A4C363E008116D9 /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		93CFAD412A4C363E008116D9 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		93CFAD4F2A4C396B008116D9 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		93CFAD512A4C4C5A008116D9 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				93CFAD4F2A4C396B008116D9 /* Reminder.swift */,
+				93CFAD512A4C4C5A008116D9 /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93CFAD232A4C363B008116D9 /* ReminderListViewController.swift in Sources */,
+				93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */,
 				93CFAD1F2A4C363B008116D9 /* AppDelegate.swift in Sources */,
 				93CFAD212A4C363B008116D9 /* SceneDelegate.swift in Sources */,
 				93CFAD502A4C396B008116D9 /* Reminder.swift in Sources */,
