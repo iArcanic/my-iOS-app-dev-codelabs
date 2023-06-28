@@ -18,6 +18,7 @@
 		93CFAD422A4C363E008116D9 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD412A4C363E008116D9 /* TodayUITestsLaunchTests.swift */; };
 		93CFAD502A4C396B008116D9 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD4F2A4C396B008116D9 /* Reminder.swift */; };
 		93CFAD522A4C4C5A008116D9 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD512A4C4C5A008116D9 /* Date+Today.swift */; };
+		93CFAD552A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFAD542A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		93CFAD412A4C363E008116D9 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		93CFAD4F2A4C396B008116D9 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		93CFAD512A4C4C5A008116D9 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		93CFAD542A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,7 @@
 				93CFAD4E2A4C3950008116D9 /* Models */,
 				93CFAD1E2A4C363B008116D9 /* AppDelegate.swift */,
 				93CFAD202A4C363B008116D9 /* SceneDelegate.swift */,
-				93CFAD222A4C363B008116D9 /* ReminderListViewController.swift */,
+				93CFAD532A4C4E7E008116D9 /* ListViewController */,
 				93CFAD242A4C363B008116D9 /* Main.storyboard */,
 				93CFAD272A4C363D008116D9 /* Assets.xcassets */,
 				93CFAD292A4C363D008116D9 /* LaunchScreen.storyboard */,
@@ -139,6 +141,15 @@
 				93CFAD512A4C4C5A008116D9 /* Date+Today.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		93CFAD532A4C4E7E008116D9 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93CFAD222A4C363B008116D9 /* ReminderListViewController.swift */,
+				93CFAD542A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				93CFAD1F2A4C363B008116D9 /* AppDelegate.swift in Sources */,
 				93CFAD212A4C363B008116D9 /* SceneDelegate.swift in Sources */,
 				93CFAD502A4C396B008116D9 /* Reminder.swift in Sources */,
+				93CFAD552A4C4EC2008116D9 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
